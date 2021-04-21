@@ -8,7 +8,7 @@ def validate_json_files(directory):
     invalid_files = []
     
     for json_file in json_files:
-        with open (json_file, "r") as file:
+        with open(json_file, "r") as file:
             content = file.read()
             
             try:
