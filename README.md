@@ -1,4 +1,4 @@
-# validate_json_files
+# Validate JSON Files
 A Python script for validating that JSON files actually contain valid JSON.
 
 ### Run
