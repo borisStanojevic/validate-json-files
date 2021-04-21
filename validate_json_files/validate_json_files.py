@@ -18,7 +18,7 @@ def validate_json_files(directory):
                 invalid_files.append(json_file)
     
     if len(invalid_files) > 0:
-        return False
+        raise Exception("One or more files do not contain JSON data.")
                 
 if __name__ == "__main__":
     validate_json_files(os.getcwd())
